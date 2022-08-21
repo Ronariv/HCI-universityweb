@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* header */
+.sunhead{
+    min-height: 100vh;
+    display: inline-block;
+    stroke: black;
+    width:100%;
+    background-image: url(../photo/graduatehome.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#logo-sunbic{
+    font-family: 'Helvetiva Neue';
+    display: flex;
+    /* vertical-align:top; */
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 32px;
+    align-items: center;
+}
+
+#logo-sunbic h1{
+    padding-left: 30px;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerbar{
+    display: flex;
+}
+
+.headbar li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.headbar li a{
+    color: black;
+    background-color: #ffffffaf;
+    padding-right: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.headbar li a:hover{
+    background-color: black;
+    color: white; 
+}
+
+/*search */
+.search-bar{
+    justify-content:end;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: black;
+    width: 150px;
+    height: 20px;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+.search-bar:focus{
+    background-color: white;
+}
+/* 
+input[type = text]{
+    background-color: black;
+    width: 150px;
+    height: 20px;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+} */
+
+/* input[type=text]:focus {
+    background-color: white;
+} */
+/* 
+#backgroundphoto{
+    width: 1920px;
+    height: auto;
+} */
+
+/* tulisan */
+.home-slogan{
+    min-height: 90vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-slogan h1{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    margin-top: 15%;
+    font-size: 72px;
+}
+
+.home-slogan p{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin: 10px 40px;
+}
+
+.join-button{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.452);
+    color: black;
+    border: 1px solid white;
+    padding: 15px 30px;
+}
+
+.join-button:hover{
+    border: 1px solid black;
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+}
+
+/* graduates */
+.the-grad{
+    background-color: black;
+    min-height: 130vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.the-grad h1{
+    color: white;
+    margin-top: 5%;
+    font-size: 56px;
+}
+
+.the-grad p{
+    color: white;
+    font-size: 36px;
+}
+
+.big-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.big-box p{
+    font-size: medium;
+}
+
+.grad-box{
+    background-color: whitesmoke;
+    flex-basis: 31%;
+    border-radius: 5px;
+    transition: 0.3s;
+    padding: 1%;
+    margin: 0.5%;
+    transition: all ease 0.5s;
+}
+
+.grad-box:hover{
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 5px white;
+}
+
+
+.grad-box img{
+    height: 60%;
+    width: 100%;
+}
+
+.grad-box h3{
+    margin-top: 5%;
+    font-size: larger;
+    font-weight:700;
+    color:black;
+}
+
+.grad-box p{
+    color: grey;
+    font-size: 0.8rem;
+    margin-top: 5%;
+}
+
+/* #elon{
+    background: url(photo/elonmas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.fasilitas{
+    min-height: 100vh;
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.fasilitas h1{
+    margin-top: 5%;
+    font-size: 56px;
+}
+.fasilitas p{
+    font-size: 1.8rem;
+}
+
+.fac-box{
+    width: 30%;
+    text-decoration: none;
+}
+
+.fac-box img{
+    border-radius: 10px;
+    width: 100%;
+}
+.fac-box img:hover{
+    /* border-radius: 15px; */
+    width: 100%;
+    box-shadow: 4px 4px 8px black;
+}
+.footer{
+    min-height: 50vh;
+    background-color: black;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* padding: 5%; */
+}
+
+#copyright{
+    color: grey;
+    font-size: smaller;
+}
+
+.footer-box{
+    max-width: 30%;
+    margin: 5%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+}
+.footer-box p{
+    font-size: 1rem;
+}
+
+.footer-box img{
+    margin: 1%;
+    max-width: 35%;
+}
+.footer-icon{
+    min-width:30%;
+    margin: 5% 0;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.footer-icon a{
+    display: inline-block;
+    margin: 4%;
+    text-decoration: none;
+    color: white;
+}
+
+#facebook:hover{
+    color: rgb(0, 136, 255);
+}
+#twitter:hover{
+    color: rgb(0, 166, 255);
+}
+#instagram:hover{
+    background-image: linear-gradient(purple,red, yellow);
+    background-size: cover;
+}
+@media(max-width: 800px){
+    .the-grad{
+        text-align: center;
+        justify-content: center;
+    }
+    .big-box{
+        display: block;
+        justify-content: center;
+        width: 100%;
+        margin: 0%;
+        padding: 5%;
+    }
+    .grad-box{
+        padding: 5%;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .search-bar{
+        display: none;
+    }
+    .headbar{
+        width: 100%;
+    }
+    .fac-box{
+        width: 100%;
+    }
+    .footer{
+        align-items: center;
+    }
+    .footer-box{
+        display: inline-block;
+        width: 100%;
+    }
+}

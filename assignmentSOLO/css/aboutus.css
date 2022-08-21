@@ -1,0 +1,61 @@
+.about-sunbic{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3%;
+    border: 1px solid black;
+}
+
+.about-us-text h2{
+    color: orange;
+    font-size: 4rem;
+}
+
+.about-sunbic h3{
+    margin: 2%;
+    font-size: 2rem;
+}
+
+.about-sunbic p{
+    font-size: 1.2rem;
+    margin: 1%;
+}
+
+.history-sunbic{
+    background-color: black;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-us-text h3{
+    margin: 2% 0;
+    font-size: 2rem;
+}
+
+.history-sunbic h3{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.history-sunbic h2{
+    margin: 5% 0;
+    font-size: 2.5rem;
+    color: orange;
+}
+
+@media(max-width:800px){
+    .home-slogan{
+        text-align: center;
+    }
+    .about-sunbic{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 2% 0;
+    }
+}

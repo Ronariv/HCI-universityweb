@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbic - Join Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/joinus.css">
+    <script src="https://kit.fontawesome.com/fdc795101e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <section class = "sunhead">
+        <nav>
+            <div id ="logo-sunbic">
+                <img src="photo/logoSunbic2.png" alt="" height="100px">
+                <h1>Sunbic University</h1>
+            </div>
+            <div class="headerbar">
+                <ul class = "headbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="program.html">Program</a></li>
+                    <li><a href="joinus.html">Join Us</a></li>
+                </ul>
+                <input class = "search-bar" id="searchbar" onkeyup="search_bar()" type="text"
+                name="search" placeholder="Search">
+    
+            </div>
+            
+        </nav>
+        <div class="form">
+            <div class ="form-box">
+                <div class="form-head">Join Us</div>
+                <form action="#" id="form">
+                    <div class="user-detail">
+                        <div class="input-box">
+                            <span class="isi-form">Name</span>
+                            <input type="text"placeholder="Name" required id="name">
+                        </div>
+                        <div class="input-box">
+                            <span class="isi-form">Email</span>
+                            <input type="text"placeholder="Email" required id="email">
+                        </div>
+                        <div class="input-box">
+                            <span class="isi-form">Date of Birth</span>
+                            <input type="date"placeholder="MM/DD/YYYY" required id="date">
+                        </div>
+                        <div class="input-box">
+                            <span class="isi-form">Phone Number</span>
+                            <input type="number"placeholder="Phone Number" required id="phone">
+                        </div>
+                        <div class="input-box">
+                            <span class="isi-form">Password</span>
+                            <input type="password"placeholder="Password" required id="pass">
+                        </div>
+                        <div class="input-box">
+                            <span class="isi-form">Confirm Password</span>
+                            <input type="password"placeholder="Confirm Password" required id="confirmpass">
+                        </div>
+                    </div>
+                    <div class="gender-form">
+                        <input type="radio" name="gender" id="pilihan-1">
+                        <input type="radio" name="gender" id="pilihan-2">
+                        <span class="gender-head">Gender</span>
+                        <div class="category">
+                            <label for="pilihan-1">
+                                <span class="pilihan one"></span>
+                                <span class="gender">Male</span>
+                            </label>
+                            <label for="pilihan-2">
+                                <span class="pilihan two"></span>
+                                <span class="gender">Female</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <input type="submit" value="Register Now">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+    <section class ="footer">
+        <div class = "footer-box">
+            <img src="photo/logoSunbicHitam1.png" alt="">
+            <div>
+                <p>Jl. Sunbic No. 1, Alam Kemang, Kemang</p>
+                <p>Jakarta 11480 Indonesia</p>
+                <p>Phone +62-21-534-5830</p>
+                <p>Fax +62-21-530-0244</p>
+                <p>.</p>
+                <p id="copyright">Copyright Sunbic, All rights reserved</p>
+            </div>
+        </div>
+        <div class = "footer-icon"> 
+            <a href="https://www.facebook.com/" id="facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/home" id="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" id="instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
